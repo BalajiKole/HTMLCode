@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+		*{
+			box-sizing: border-box;
+		}
+		.box{
+			float: left;
+			width:25%;
+			padding: 50px 
+		}
+		.clearfix::after{
+			content: "";
+			clear: both;
+			display: table;
+		}
+
+
+
+	</style>
+</head>
+<body>
+
+	<h1>Boxes example</h1>
+	<p>float boxes side by side </p>
+
+<div class="clearfix">
+	<div class="box" style="background-color: pink"><h1>div1</h1></div>
+	<div class="box" style="background-color: powderblue"><h1>div2</h1></div>
+	<div class="box" style="background-color: green"> <h1>div3</h1></div>
+
+    <div class="box" style="background-color: red"> <h1>div4</h1></div>
+
+
+</div>
+ <p>Hypertext Markup Language is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets and scripting languages such as JavaScript</p>
+
+
+</body>
+</html>

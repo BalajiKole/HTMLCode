@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+
+
+<div class="c">
+  <input type="range" min="1" max="100" value="10" class="slider" id="myRange">
+  <p>Value: <span id="demo"></span></p>
+</div>
+<di
+
+<script>
+var sliderMove = document.getElementById("myRange");
+document.getElementById("demo").innerHTML=sliderMove.value;
+
+sliderMove.oninput = function() {
+  document.getElementById("demo").innerHTML = this.value;
+}
+</script>
+
+</body>
+</html>

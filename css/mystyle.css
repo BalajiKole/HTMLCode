@@ -1,0 +1,26 @@
+body{/*background-image: url("C:/Users/Admin/Desktop/HTML/HTML CODE/photo/apple.PNG");
+
+background-repeat: repeat-x;
+background-repeat: repeat-y;
+background-repeat:  no-repeat;
+background-position: right top;
+background-attachment: fixed;*/
+
+background: #ffffff url("C:/Users/Admin/Desktop/HTML/HTML CODE/photo/apple.PNG") no-repeat right top fixed;
+margin-right: 200px
+}
+
+h1{
+	color: rgb(255,99,71,0.8);
+
+}
+div{
+	font-size: 50px
+}
+#para1{
+	text-align: center;
+}
+.para2{
+	color: #ff6747
+}
+

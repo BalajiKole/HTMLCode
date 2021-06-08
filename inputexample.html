@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<form>
+	
+	<label for="username">username <sup style="color: red">*</sup>:</label>
+	<input type="text" name="username" id="username" placeholder="user name" required /><br/><br/> 
+
+	<label for="pwd">password:</label>
+	<input type="password" name="password" id="pwd" placeholder="password"/><br/>
+Gender: <input type="radio" name="gender" id="male" value="male">
+<label for="male">Male</label> 
+
+
+<input type="radio" name="gender" id="female" value="female">
+<label for="female">FeMale</label> 
+
+
+<input type="radio" name="gender" id="other" value="other">
+<label for="other">other</label> <br/>
+
+known lang:<input type="checkbox" name="lang" id="lang1" value="marathi">
+<label for="lang1"> Marathi</label>
+
+<input type="checkbox" name="lang" id="lang2" value="Hindi">
+<label for="lang2"> Hindi</label>
+
+<input type="checkbox" name="lang" id="lang3" value="English">
+<label for="lang3"> English</label><br/><br/>
+<label for="favcolor">select your favorite color</label>
+<input type="color" name="color" id="favcolor"><br/><br/>
+
+<label for="birthday">birthday date:</label>
+<input type="date" name="birthday" id="birthday"><br/><br/>
+
+<label for="email">enter your email:</label>
+<input type="email" name="email" id="email" value="tqbalaji@gmail.com" readonly><br/><br/>
+
+<input type="text" name="" value="TQPP" disabled>
+<input type="text" name="" value="TQ" hidden>
+
+
+<label for="maxdate">Enter date before 1980-01-01</label>
+<input type="date" name="maxdate" id="maxdate" max="1979-12-31">
+
+<label for="mindate">Enter date after 2000-01-01</label>
+<input type="date" name="mindate" id="mindate" min="2000-01-02"><br/><br/>
+
+<label for="phone">Enter phone number</label>
+<input type="tel" name="phone" id="phone" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
+
+<label for="d">HTML Book (  bewteen 1 to 100)</label>
+<input type="range"  id="d" name="book_range" min="1" max="100">
+
+
+	<input type="submit" value="login">
+	<input type="reset" value="reset">
+</form>
+</body>
+</html>
+
+
+

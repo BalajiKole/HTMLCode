@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<canvas id="a" width="500" height="500" style="border: 1px solid #000000"></canvas>
+
+
+<script>
+	var b=document.getElementById("a");
+	var c=b.getContext("2d");
+	c.moveTo(50,50);
+	c.lineTo(100,100);
+	c.stroke();
+c.beginPath();	
+c.arc(250,250,50,0,2*Math.PI); 
+c.stroke();
+
+
+
+</script>
+
+
+
+</body>
+</html>
